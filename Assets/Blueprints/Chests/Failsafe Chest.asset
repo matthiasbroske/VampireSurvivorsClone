@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08306bf714eb8404c84961bcb89ad9f0, type: 3}
+  m_Name: Failsafe Chest
+  m_EditorClassIdentifier: 
+  abilityChest: 0
+  closedChest: {fileID: 56875098, guid: 47d8a91e3026e405a96bac590c863934, type: 3}
+  openingChest: {fileID: -1761747347, guid: 47d8a91e3026e405a96bac590c863934, type: 3}
+  openChest: {fileID: -369494663, guid: 47d8a91e3026e405a96bac590c863934, type: 3}
+  lootTable:
+    lootTable:
+    - item: {fileID: 1437905727660197986, guid: abf49d6cb814647109c1773c37109e8e, type: 3}
+      dropChance: 0.25
+      coinType: 50
+    - item: {fileID: 4351526134465978760, guid: 33f802a3122ee457bb0af697a232abc4, type: 3}
+      dropChance: 0.25
+      coinType: 1
+    - item: {fileID: 5021278261004164486, guid: 258c15079a6434b34906221b5d37fef5, type: 3}
+      dropChance: 0.25
+      coinType: 1
+    - item: {fileID: 5106432163974468709, guid: ca21385e12ddd46a59abd05d62a778bc, type: 3}
+      dropChance: 0.25
+      coinType: 1

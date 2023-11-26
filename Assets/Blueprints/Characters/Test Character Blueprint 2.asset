@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cebba9219e8740668e9101e947a97e4, type: 3}
+  m_Name: Test Character Blueprint 2
+  m_EditorClassIdentifier: 
+  name: "\u540D\u5B57"
+  owned: 0
+  cost: 799
+  hp: 110
+  atk: 25
+  recovery: 0
+  armor: 0
+  movespeed: 1.15
+  atkspeed: 1
+  luck: 1
+  acceleration: 50
+  walkSpriteSequence:
+  - {fileID: -1159827789, guid: 8f2f1cdf6848a4a8495353d4eba4ecea, type: 3}
+  - {fileID: -1498753039, guid: 5c133df4e168243918889aa50bab75fb, type: 3}
+  - {fileID: -1711853846, guid: 5c133df4e168243918889aa50bab75fb, type: 3}
+  - {fileID: 917104541, guid: 5c133df4e168243918889aa50bab75fb, type: 3}
+  walkFrameTime: 0.1
+  startingAbilities:
+  - {fileID: 7378740072262091319, guid: 83d30b9611c244f46b7a4bfc51d0276c, type: 3}

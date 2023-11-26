@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886213a69dd33422f94e65656863fa3e, type: 3}
+  m_Name: Gravity Monster
+  m_EditorClassIdentifier: 
+  name: Gravity
+  hp: 10
+  atk: 10
+  recovery: 0
+  armor: 0
+  atkspeed: 0.3
+  movespeed: 0.5
+  acceleration: 0
+  gemLootTable:
+    lootTable:
+    - item: 10
+      dropChance: 0.5
+      coinType: 0
+  coinLootTable:
+    lootTable:
+    - item: 5
+      dropChance: 0.1
+      coinType: 0
+  walkSpriteSequence:
+  - {fileID: 917104541, guid: eca16508fe74f4f5fa8d6de6667f30c4, type: 3}
+  - {fileID: -1159827789, guid: eca16508fe74f4f5fa8d6de6667f30c4, type: 3}
+  - {fileID: -1498753039, guid: eca16508fe74f4f5fa8d6de6667f30c4, type: 3}
+  - {fileID: -1711853846, guid: eca16508fe74f4f5fa8d6de6667f30c4, type: 3}
+  walkFrameTime: 0.15
+  throwablePrefab: {fileID: 7669521032070789568, guid: 581c3629592bd4e348262df2e1facc62, type: 3}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 320
+  range: 3.25
+  timeAllowedOutsideRange: 1

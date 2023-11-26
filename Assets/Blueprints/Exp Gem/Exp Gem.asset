@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686b535d7772f4571bb441181d2b2387, type: 3}
+  m_Name: Exp Gem
+  m_EditorClassIdentifier: 
+  gemSpritesAndColors:
+    content1:
+    - {fileID: 372590598, guid: e8f5ab0ca84154643a62b3f6adb1297c, type: 3}
+    - {fileID: 139951702, guid: e8f5ab0ca84154643a62b3f6adb1297c, type: 3}
+    - {fileID: -584297072, guid: e8f5ab0ca84154643a62b3f6adb1297c, type: 3}
+    - {fileID: 1739633518, guid: e8f5ab0ca84154643a62b3f6adb1297c, type: 3}
+    content2:
+    - {r: 0.1254902, g: 0.6666667, b: 0.8666667, a: 1}
+    - {r: 0.078431375, g: 0.4156863, b: 0.7686275, a: 1}
+    - {r: 0.3647059, g: 0.85098046, b: 0.43137258, a: 1}
+    - {r: 0.82745105, g: 0.16078432, b: 0.16862746, a: 1}
+    enumType: 0

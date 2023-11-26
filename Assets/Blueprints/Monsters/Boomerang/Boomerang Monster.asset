@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2482e0a3354246199a4819e8c09cfaf, type: 3}
+  m_Name: Boomerang Monster
+  m_EditorClassIdentifier: 
+  name: Boomerang Monster
+  hp: 45
+  atk: 10
+  recovery: 0
+  armor: 0
+  atkspeed: 2
+  movespeed: 0.7
+  acceleration: 5
+  gemLootTable:
+    lootTable:
+    - item: 10
+      dropChance: 0.4
+      coinType: 0
+  coinLootTable:
+    lootTable:
+    - item: 5
+      dropChance: 0.2
+      coinType: 0
+    - item: 30
+      dropChance: 0.01
+      coinType: 0
+  walkSpriteSequence:
+  - {fileID: 917104541, guid: daaedef1b578f44278f11eaff39582d7, type: 3}
+  - {fileID: -1159827789, guid: daaedef1b578f44278f11eaff39582d7, type: 3}
+  - {fileID: -1498753039, guid: daaedef1b578f44278f11eaff39582d7, type: 3}
+  - {fileID: -1711853846, guid: daaedef1b578f44278f11eaff39582d7, type: 3}
+  walkFrameTime: 0.15
+  boomerangPrefab: {fileID: 7669521032070789568, guid: 1f463c2ded0b041a385a6795f9026ebe, type: 3}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  boomerangDamage: 5
+  boomerangAttackSpeed: 0.3
+  range: 2.5
+  throwRange: 3
+  throwTime: 1.2

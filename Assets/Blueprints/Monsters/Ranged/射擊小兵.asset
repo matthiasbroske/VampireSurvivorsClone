@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33049c3ba50a14ac2a73f663757e4fbb, type: 3}
+  m_Name: "\u5C04\u64CA\u5C0F\u5175"
+  m_EditorClassIdentifier: 
+  name: Ranged Monster
+  hp: 25
+  atk: 4
+  recovery: 0
+  armor: 0
+  atkspeed: 0.5
+  movespeed: 0.9
+  acceleration: 5
+  gemLootTable:
+    lootTable:
+    - item: 2
+      dropChance: 0.9
+      coinType: 1
+  coinLootTable:
+    lootTable:
+    - item: 1
+      dropChance: 0.4
+      coinType: 1
+    - item: 2
+      dropChance: 0.09
+      coinType: 1
+    - item: 5
+      dropChance: 0.01
+      coinType: 1
+  walkSpriteSequence:
+  - {fileID: 1532228488, guid: 02288e18bb6844bd09c390d973e71969, type: 3}
+  - {fileID: 588948436, guid: 02288e18bb6844bd09c390d973e71969, type: 3}
+  - {fileID: 628412716, guid: 02288e18bb6844bd09c390d973e71969, type: 3}
+  - {fileID: 546453949, guid: 02288e18bb6844bd09c390d973e71969, type: 3}
+  walkFrameTime: 0.2
+  projectilePrefab: {fileID: 7669521032070789568, guid: 05da18cc29e0549b094ccd6c62ca69e5, type: 3}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 1280
+  projectileSpeed: 3
+  range: 2
+  timeAllowedOutsideRange: 2

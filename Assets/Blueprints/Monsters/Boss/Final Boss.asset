@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d5e26e1683b468ab18460096a144c8, type: 3}
+  m_Name: Final Boss
+  m_EditorClassIdentifier: 
+  name: Shotgun Boss
+  hp: 500
+  atk: 10
+  recovery: 0
+  armor: 0
+  atkspeed: 1
+  movespeed: 1
+  acceleration: 5
+  gemLootTable:
+    lootTable:
+    - item: 50
+      dropChance: 1
+      coinType: 0
+  coinLootTable:
+    lootTable:
+    - item: 50
+      dropChance: 1
+      coinType: 0
+  walkSpriteSequence:
+  - {fileID: 941236917, guid: a1934d8b81b1b463789e100d3936db4f, type: 3}
+  - {fileID: 1685016755, guid: a1934d8b81b1b463789e100d3936db4f, type: 3}
+  - {fileID: -1451960610, guid: a1934d8b81b1b463789e100d3936db4f, type: 3}
+  - {fileID: -1697577783, guid: a1934d8b81b1b463789e100d3936db4f, type: 3}
+  walkFrameTime: 0.2
+  abilityPrefabs:
+  - {fileID: 7744714996288908991, guid: 3440285163500438fba0dba88b03a6ee, type: 3}
+  - {fileID: 7744714996288908991, guid: c7b1743ed4bf54f77b6c080991dceb67, type: 3}
+  - {fileID: 7744714996288908991, guid: 40d7a53849f9a4bf590a08e1f36a65dc, type: 3}
+  meleeLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  meleeDamage: 20
+  meleeKnockback: 2
+  meleeAttackDelay: 0.25
+  chestBlueprint: {fileID: 11400000, guid: 09c76747ee6d04f4d8f3605d2a164718, type: 2}
