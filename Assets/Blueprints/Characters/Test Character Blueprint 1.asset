@@ -12,22 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cebba9219e8740668e9101e947a97e4, type: 3}
   m_Name: Test Character Blueprint 1
   m_EditorClassIdentifier: 
-  name: "\u540D\u5B57"
+  name: Test
   owned: 1
   cost: 999
   hp: 50
-  atk: 100
   recovery: 0
   armor: 0
   movespeed: 1
-  atkspeed: 1
   luck: 1
   acceleration: 50
   walkSpriteSequence:
+  - {fileID: -1711853846, guid: 3b441ea71fa8640df816f3eba68f8845, type: 3}
   - {fileID: 917104541, guid: 3b441ea71fa8640df816f3eba68f8845, type: 3}
   - {fileID: -1159827789, guid: 3b441ea71fa8640df816f3eba68f8845, type: 3}
   - {fileID: -1498753039, guid: 3b441ea71fa8640df816f3eba68f8845, type: 3}
-  - {fileID: -1711853846, guid: 3b441ea71fa8640df816f3eba68f8845, type: 3}
   walkFrameTime: 0.1
   startingAbilities:
   - {fileID: 7378740072262091319, guid: 035b777c757ec454ba0b4711eed2ef82, type: 3}

@@ -9,11 +9,9 @@ namespace Vampire
         public bool owned = false;
         public int cost = 999;
         public float hp;  // 血量
-        public float atk;  // 攻擊力
         public float recovery;  // 血量恢復再生率
         public int armor;  // 裝甲減傷
         public float movespeed;  // 移動速度
-        public float atkspeed;  // 攻擊速度
         public float luck;  // 運氣
         public float acceleration;
         public Sprite[] walkSpriteSequence;

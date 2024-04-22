@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace Vampire
 {
@@ -9,12 +10,20 @@ namespace Vampire
         [SerializeField] protected GameObject characterCardPrefab;
         [SerializeField] protected CoinDisplay coinDisplay;
 
+        private CharacterCard[] characterCards;
+        
         public void Init()
         {
+            characterCards = new CharacterCard[characterBlueprints.Length];
             for (int i = 0; i < characterBlueprints.Length; i++)
             {
-                CharacterCard characterCard = Instantiate(characterCardPrefab, this.transform).GetComponent<CharacterCard>();
-                characterCard.Init(this, characterBlueprints[i], coinDisplay);
+                characterCards[i] = Instantiate(characterCardPrefab, this.transform).GetComponent<CharacterCard>();
+                characterCards[i].Init(this, characterBlueprints[i], coinDisplay);
+            }
+            LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponent<RectTransform>());
+            for (int i = 0; i < characterBlueprints.Length; i++)
+            {
+                characterCards[i].UpdateLayout();
             }
         }
         
