@@ -37,14 +37,6 @@ namespace Vampire
 
             registeredUpgradeableValues = new FastList<IUpgradeableValue>();
 
-            newAbilities = new WeightedAbilities();
-            foreach (GameObject abilityPrefab in levelBlueprint.abilityPrefabs)
-            {
-                Ability ability = Instantiate(abilityPrefab, transform).GetComponent<Ability>();
-                ability.Init(abilityManager, entityManager, playerCharacter);
-                newAbilities.Add(ability);
-            }
-
             ownedAbilities = new WeightedAbilities();
             foreach (GameObject abilityPrefab in playerCharacter.Blueprint.startingAbilities)
             {
@@ -54,6 +46,16 @@ namespace Vampire
                 ownedAbilities.Add(ability);
             }
             
+            newAbilities = new WeightedAbilities();
+            foreach (GameObject abilityPrefab in levelBlueprint.abilityPrefabs)
+            {
+                // Skip any abilities we already own
+                if (playerCharacter.Blueprint.startingAbilities.Contains(abilityPrefab)) continue;
+                
+                Ability ability = Instantiate(abilityPrefab, transform).GetComponent<Ability>();
+                ability.Init(abilityManager, entityManager, playerCharacter);
+                newAbilities.Add(ability);
+            }
         }
 
         public void RegisterUpgradeableValue(IUpgradeableValue upgradeableValue, bool inUse = false)
