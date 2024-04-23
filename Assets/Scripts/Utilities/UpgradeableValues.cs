@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Localization.Settings;
+using UnityEngine.Localization.Tables;
 
 namespace Vampire
 {
@@ -56,72 +58,72 @@ namespace Vampire
 
     [System.Serializable] public class UpgradeableDamage : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "攻擊力";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Damage");
         public override void RegisterInUse() { abilityManager.DamageUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableDamageRate : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "攻擊率";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Damage Rate");
         public override void RegisterInUse() { abilityManager.FireRateUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableWeaponCooldown : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "武器冷卻時間";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Weapon Cooldown");
         public override void RegisterInUse() { abilityManager.WeaponCooldownUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableRecoveryCooldown : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "恢復冷卻時間";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Recovery Cooldown");
         public override void RegisterInUse() { abilityManager.RecoveryCooldownUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableDuration : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "持續時間";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Duration");
         public override void RegisterInUse() { abilityManager.DurationUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableAOE : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "影響範圍";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "AOE");
         public override void RegisterInUse() { abilityManager.AOEUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableKnockback : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "擊退";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Knockback");
         public override void RegisterInUse() { abilityManager.KnockbackUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableProjectileSpeed : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "子彈速度";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Projectile Speed");
         public override void RegisterInUse() { abilityManager.ProjectileSpeedUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableRecoveryChance : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "恢復率";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Recovery Chance");
         public override void RegisterInUse() { abilityManager.RecoveryChanceUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableBleedDamage : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "流血攻擊力";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Bleed Damage");
         public override void RegisterInUse() { abilityManager.BleedDamageUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableBleedRate : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "流血率";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Bleed Rate");
         public override void RegisterInUse() { abilityManager.BleedRateUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableBleedDuration : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "流血持續時間";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Bleed Duration");
         public override void RegisterInUse() { abilityManager.BleedDurationUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableMovementSpeed : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "移動速度";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Movement Speed");
         public override void RegisterInUse() { abilityManager.MovementSpeedUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableRotationSpeed : UpgradeableFloat
     {
-        protected override string UpgradeName { get; set; } = "轉速";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Rotation Speed");
         public override void RegisterInUse() { abilityManager.RotationSpeedUpgradeablesCount++; }
     }
 
@@ -147,7 +149,7 @@ namespace Vampire
     {
         [SerializeField] protected int projectilesPer = 1;
         public override int Value { get => projectilesPer * value; }
-        [field: SerializeField] protected override string UpgradeName { get; set; } = "子彈數量";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Projectile Count");
         public override void RegisterInUse() { abilityManager.ProjectileCountUpgradeablesCount++; }
         public override string GetUpgradeDescription()
         {
@@ -157,12 +159,12 @@ namespace Vampire
     }
     [System.Serializable] public class UpgradeableRecovery : UpgradeableInt
     {
-        protected override string UpgradeName { get; set; } = "恢復";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Recovery");
         public override void RegisterInUse() { abilityManager.RecoveryUpgradeablesCount++; }
     }
     [System.Serializable] public class UpgradeableArmor : UpgradeableInt
     {
-        protected override string UpgradeName { get; set; } = "防禦";
+        protected override string UpgradeName => LocalizationSettings.StringDatabase.GetLocalizedString("Upgradeable Values", "Armor");
         public override void RegisterInUse() { abilityManager.ArmorUpgradeablesCount++; }
     }
 }

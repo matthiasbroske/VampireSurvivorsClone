@@ -32,7 +32,7 @@ namespace Vampire
 
         protected string GetUpgradeDescription()
         {
-            return DescriptionUtils.GetUpgradeDescription(this.description, upgrades[level]);
+            return DescriptionUtils.GetUpgradeDescription(localizedDescription.GetLocalizedString(), upgrades[level]);
         }
     }
 }

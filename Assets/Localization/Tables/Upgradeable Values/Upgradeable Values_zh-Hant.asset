@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Upgradeable Values_zh-Hant
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh-Hant
+  m_SharedData: {fileID: 11400000, guid: 36c926595fec5471d984638bc6913d51, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 10056884224
+    m_Localized: "\u653B\u64CA\u529B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216085291008
+    m_Localized: "\u653B\u64CA\u7387"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 737600856064
+    m_Localized: "\u6B66\u5668\u51B7\u537B\u6642\u9593"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6876853952512
+    m_Localized: "\u6062\u5FA9\u51B7\u537B\u6642\u9593"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8603938316288
+    m_Localized: "\u6301\u7E8C\u6642\u9593"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8811413757952
+    m_Localized: "\u5F71\u97FF\u7BC4\u570D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9000874663936
+    m_Localized: "\u64CA\u9000"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9221390196736
+    m_Localized: "\u5B50\u5F48\u901F\u5EA6"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9380824080384
+    m_Localized: "\u6062\u5FA9\u7387"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9701361180672
+    m_Localized: "\u6D41\u8840\u653B\u64CA\u529B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10005917982720
+    m_Localized: "\u6D41\u8840\u7387"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10209987649536
+    m_Localized: "\u6D41\u8840\u6301\u7E8C\u6642\u9593"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10576473350144
+    m_Localized: "\u79FB\u52D5\u901F\u5EA6"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10662871818240
+    m_Localized: "\u8F49\u901F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10870678609920
+    m_Localized: "\u9632\u79A6"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11519172534272
+    m_Localized: "\u6062\u5FA9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11626425081856
+    m_Localized: "\u5B50\u5F48\u6578\u91CF"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

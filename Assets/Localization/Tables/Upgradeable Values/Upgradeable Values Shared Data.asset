@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Upgradeable Values Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Upgradeable Values
+  m_TableCollectionNameGuidString: 36c926595fec5471d984638bc6913d51
+  m_Entries:
+  - m_Id: 10056884224
+    m_Key: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216085291008
+    m_Key: Damage Rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 737600856064
+    m_Key: Weapon Cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6876853952512
+    m_Key: Recovery Cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8603938316288
+    m_Key: Duration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8811413757952
+    m_Key: AOE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9000874663936
+    m_Key: Knockback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9221390196736
+    m_Key: Projectile Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9380824080384
+    m_Key: Recovery Chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9701361180672
+    m_Key: Bleed Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10005917982720
+    m_Key: Bleed Rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10209987649536
+    m_Key: Bleed Duration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10576473350144
+    m_Key: Movement Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10662871818240
+    m_Key: Rotation Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10870678609920
+    m_Key: Armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11519172534272
+    m_Key: Recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11626425081856
+    m_Key: Projectile Count
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7941200140158369908
+  references:
+    version: 2
+    RefIds:
+    - rid: 7941200140158369908
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1713849122101

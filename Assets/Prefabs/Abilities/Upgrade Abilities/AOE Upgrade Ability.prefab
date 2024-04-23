@@ -46,7 +46,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   name: "\u5F71\u97FF\u7BC4\u570D\u5F37\u5316"
+  localizedName:
+    m_TableReference:
+      m_TableCollectionName: GUID:7293f9ffd63774eb1b5120a3e14cb7f5
+    m_TableEntryReference:
+      m_KeyId: 11456790650880
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   description: "\u5F71\u97FF\u7BC4\u570D\u64F4\u5927"
+  localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: GUID:7293f9ffd63774eb1b5120a3e14cb7f5
+    m_TableEntryReference:
+      m_KeyId: 11462826254336
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   rarity: 50
   upgrades:
   - 0.15
@@ -54,3 +72,6 @@ MonoBehaviour:
   - 0.15
   - 0.15
   - 0.15
+  references:
+    version: 2
+    RefIds: []

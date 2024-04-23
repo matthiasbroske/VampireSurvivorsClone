@@ -35,6 +35,19 @@ MonoBehaviour:
     m_Address: Assets/Localization/Tables/Character Text/Character Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 6def7e6a8fc31461fb80c6136fc1a913
+    m_Address: Assets/Localization/Tables/Game Text/Game Text Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 7293f9ffd63774eb1b5120a3e14cb7f5
+    m_Address: Assets/Localization/Tables/Ability Text/Ability Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 36c926595fec5471d984638bc6913d51
+    m_Address: Assets/Localization/Tables/Upgradeable Values/Upgradeable Values Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7e3d66dc8cb9f42809017db168ce4406, type: 2}
   m_SchemaSet:

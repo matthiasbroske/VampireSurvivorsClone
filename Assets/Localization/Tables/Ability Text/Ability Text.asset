@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Ability Text
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 7293f9ffd63774eb1b5120a3e14cb7f5, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 9db7042f774814003baa654286d0ac37, type: 2}
+  - {fileID: 11400000, guid: c1509a97231d14e35ba59f5388c7b21d, type: 2}
+  - {fileID: 11400000, guid: 30100c477efbf494396a6eb7162a3a51, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

@@ -29,6 +29,24 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-zh
     - Preload
+  - m_GUID: b76a29ac0bda24378be873c50bdfe516
+    m_Address: Game Text_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh
+    - Preload
+  - m_GUID: c1509a97231d14e35ba59f5388c7b21d
+    m_Address: Ability Text_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh
+    - Preload
+  - m_GUID: 86b922de0d73b44c290af2a3fd06c832
+    m_Address: Upgradeable Values_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7e3d66dc8cb9f42809017db168ce4406, type: 2}
   m_SchemaSet:

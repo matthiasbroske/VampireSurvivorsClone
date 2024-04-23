@@ -29,3 +29,6 @@ MonoBehaviour:
   walkFrameTime: 0.1
   startingAbilities:
   - {fileID: 7378740072262091319, guid: 035b777c757ec454ba0b4711eed2ef82, type: 3}
+  - {fileID: 7378740072262091319, guid: 68faf193e4e8d451aa2229ed6155917b, type: 3}
+  - {fileID: 7378740072262091319, guid: 54bc67e1508814be78d516b6fe8d264e, type: 3}
+  - {fileID: 7378740072262091319, guid: 48e31f1d1283b43748c060fbc24e3df8, type: 3}

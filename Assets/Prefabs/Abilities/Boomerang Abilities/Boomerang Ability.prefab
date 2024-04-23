@@ -46,7 +46,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 388773825, guid: 47d8a91e3026e405a96bac590c863934, type: 3}
   name: "\u98DB\u53BB\u4F86\u5668"
+  localizedName:
+    m_TableReference:
+      m_TableCollectionName: GUID:7293f9ffd63774eb1b5120a3e14cb7f5
+    m_TableEntryReference:
+      m_KeyId: 21259870208
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   description: "\u56DE\u98DB\u93E2\u653B\u64CA\u65B9\u5F0F"
+  localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: GUID:7293f9ffd63774eb1b5120a3e14cb7f5
+    m_TableEntryReference:
+      m_KeyId: 193561878528
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   rarity: 50
   boomerangPrefab: {fileID: 7669521032070789568, guid: 1f463c2ded0b041a385a6795f9026ebe, type: 3}
   monsterLayer:
@@ -75,3 +93,6 @@ MonoBehaviour:
     upgrades: 
     projectilesPer: 1
     <UpgradeName>k__BackingField: "\u5B50\u5F48\u6578\u91CF"
+  references:
+    version: 2
+    RefIds: []

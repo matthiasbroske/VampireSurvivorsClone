@@ -2,6 +2,7 @@ using System.Reflection;
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 namespace Vampire
 {
@@ -9,9 +10,8 @@ namespace Vampire
     {
         [Header("Ability Details")]
         [SerializeField] protected Sprite image;
-        [SerializeField] protected new string name;
-        [TextArea]
-        [SerializeField] protected string description;
+        [SerializeField] protected LocalizedString localizedName;
+        [SerializeField] protected LocalizedString localizedDescription;
         [SerializeField] protected Rarity rarity = Rarity.Common;
 
         protected AbilityManager abilityManager;
@@ -24,13 +24,13 @@ namespace Vampire
         public int Level { get => level; }
         public bool Owned { get => owned; }
         public Sprite Image { get => image; }
-        public string Name { get => name; }
+        public string Name { get => localizedName.GetLocalizedString(); }
         public float DropWeight { get => (float)rarity; }
         public virtual string Description 
         { 
             get { 
                 if (!owned)
-                    return description;
+                    return localizedDescription.GetLocalizedString();
                 else
                     return GetUpgradeDescriptions();
             } 

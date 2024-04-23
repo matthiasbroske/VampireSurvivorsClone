@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 namespace Vampire
 {
@@ -11,10 +13,37 @@ namespace Vampire
         [SerializeField] private RectTransform abilityImageRect;
         [SerializeField] private TextMeshProUGUI nameText;
         [SerializeField] private TextMeshProUGUI descriptionText;
-        [SerializeField] private TextMeshProUGUI levelText;
+        [SerializeField] private TextMeshProUGUI buttonText;
         [SerializeField] private float appearSpeed = 3;
+        [SerializeField] private LocalizedString selectLocalization, upgradeLocalization;
         private AbilitySelectionDialog levelUpMenu;
         private Ability ability;
+        private bool initialized;
+
+        private void OnEnable()
+        {
+            LocalizationSettings.SelectedLocaleChanged += HandleLocaleChanged;
+        }
+        
+        private void OnDisable()
+        {
+            LocalizationSettings.SelectedLocaleChanged -= HandleLocaleChanged;
+        }
+
+        private void HandleLocaleChanged(Locale _)
+        {
+            SetText();
+        }
+
+        private void SetText()
+        {
+            if (!initialized) return;
+            
+            nameText.text = ability.Name;
+            descriptionText.text = ability.Description;
+            
+            buttonText.text = !ability.Owned ? selectLocalization.GetLocalizedString() : upgradeLocalization.GetLocalizedString() + " (" + ability.Level + " -> " + (ability.Level+1) + ")";
+        }
 
         public void Init(AbilitySelectionDialog levelUpMenu, Ability ability, float waitToAppear)
         {
@@ -27,12 +56,11 @@ namespace Vampire
                     yHeight = ability.Image.textureRect.height / (float) ability.Image.textureRect.width * xWidth;
             }
             ((RectTransform)abilityImage.transform).sizeDelta = new Vector2(xWidth, yHeight);
-            nameText.text = ability.Name;
-            descriptionText.text = ability.Description;
-            levelText.text = !ability.Owned ? (ability.Level + 1).ToString() : ability.Level + " -> " + (ability.Level+1);
             this.levelUpMenu = levelUpMenu;
             this.ability = ability;
             StartCoroutine(Appear(waitToAppear));
+            initialized = true;
+            SetText();
         }
 
         public IEnumerator Appear(float waitToAppear)

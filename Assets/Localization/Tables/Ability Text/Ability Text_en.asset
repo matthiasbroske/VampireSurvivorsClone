@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Ability Text_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 7293f9ffd63774eb1b5120a3e14cb7f5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 21259870208
+    m_Localized: Boomerang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193561878528
+    m_Localized: Boomerang attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702691663872
+    m_Localized: Lightsword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 847437094912
+    m_Localized: Boomerang attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050382688256
+    m_Localized: Machete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1150563639296
+    m_Localized: Boomerang attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425428963328
+    m_Localized: Lifesteal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1544433950720
+    m_Localized: Chance to gain health on dealing damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2346053525504
+    m_Localized: Recover health over time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2330958225408
+    m_Localized: Recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3436413181952
+    m_Localized: Bat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3524413874176
+    m_Localized: Close-range knockback attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4023905148928
+    m_Localized: Dagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4033036148736
+    m_Localized: Close-range bleed attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4334879236096
+    m_Localized: Sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4351253798912
+    m_Localized: Only attacks to the left and right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4967288004608
+    m_Localized: Bazooka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4999026302976
+    m_Localized: Long-range AOE attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5393987133440
+    m_Localized: AK-47
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5398001082368
+    m_Localized: Fast-firing low-damage attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6604362604544
+    m_Localized: Thrown in quick succession
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6587841241088
+    m_Localized: Shuriken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7050871431168
+    m_Localized: Axe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7053991993344
+    m_Localized: Orbits the player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7868966232064
+    m_Localized: Grenade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7889975500800
+    m_Localized: Explodes in all directions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7910674391040
+    m_Localized: Molotov
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7923844505600
+    m_Localized: Creates pools of fire on the ground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11456790650880
+    m_Localized: AOE+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11462826254336
+    m_Localized: Increased AOE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17051954438144
+    m_Localized: Armor+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17059760037888
+    m_Localized: Flat damage reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27185514536960
+    m_Localized: Cooldown+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27191411728384
+    m_Localized: Decreased attack cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28001675763712
+    m_Localized: Damage+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28005144453120
+    m_Localized: Increased attack damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28807695163392
+    m_Localized: Speed+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28814192140288
+    m_Localized: Increased movement speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29846494240768
+    m_Localized: Knockback+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29946226401280
+    m_Localized: Increased knockback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30472754159616
+    m_Localized: Projectiles+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30477896376320
+    m_Localized: Increased projectile count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30488721874944
+    m_Localized: Projectile Speed+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30492345753600
+    m_Localized: Increased projectile speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64544616472576
+    m_Localized: Upgrade
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
