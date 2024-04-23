@@ -30,6 +30,18 @@ MonoBehaviour:
     m_Localized: Select
     m_Metadata:
       m_Items: []
+  - m_Id: 344185872834560
+    m_Localized: Level Complete!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344416857350144
+    m_Localized: Game Over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345211782815744
+    m_Localized: Try Again
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

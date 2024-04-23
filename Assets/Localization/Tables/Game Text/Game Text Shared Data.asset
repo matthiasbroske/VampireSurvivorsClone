@@ -27,6 +27,18 @@ MonoBehaviour:
     m_Key: Select
     m_Metadata:
       m_Items: []
+  - m_Id: 344185872834560
+    m_Key: Level Passed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344416857350144
+    m_Key: Level Lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345211782815744
+    m_Key: Try Again
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

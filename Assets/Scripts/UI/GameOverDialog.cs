@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.Localization;
 
 namespace Vampire
 {
@@ -11,10 +12,11 @@ namespace Vampire
         [SerializeField] private TextMeshProUGUI damageDealt;
         [SerializeField] private TextMeshProUGUI damageTaken;
         [SerializeField] private GameObject background;
+        [SerializeField] private LocalizedString levelPassedLocalization, levelLostLocalization;
 
         public void Open(bool levelPassed, StatsManager statsManager)
         {
-            statusText.text = levelPassed ? "通關" : "失敗";
+            statusText.text = levelPassed ? levelPassedLocalization.GetLocalizedString() : levelLostLocalization.GetLocalizedString();
             coinsGained.text = "+" + statsManager.CoinsGained;
             enemiesRouted.text = statsManager.MonstersKilled.ToString();
             damageDealt.text = statsManager.DamageDealt.ToString();
