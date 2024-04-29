@@ -122,7 +122,7 @@ namespace Vampire
         public void ReturnToMainMenu()
         {
             Time.timeScale = 1;
-            SceneManager.LoadScene("Main");
+            SceneManager.LoadScene(0);
         }
     }
 }
